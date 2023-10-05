@@ -1,0 +1,46 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+.baner
+{
+    background-color: #A00037;
+    color: #fff;
+    text-align: center;
+    font-size: 150%;
+    padding: 3px;
+}
+.right
+{
+    display: inline-block;
+    background-color: #D81B60;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    width: 20%;
+    box-shadow: 15px 15px 12px dimgray ;
+    text-align: center;
+}
+
+.left{
+    
+    text-align: center;
+    margin: 15px 20px;
+    float: left;
+    width: 70%;
+}
+table{
+  border:1px solid aliceblue;
+  margin: auto;
+  width: 95%;
+
+}
+button
+{
+    background-color: #D81B60 !important;
+    color: #fff;
+    padding: 15px;
+    margin: 20px;
+    width: 100%;
+}
