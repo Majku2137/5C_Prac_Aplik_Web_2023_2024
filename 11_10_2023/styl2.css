@@ -30,6 +30,7 @@ h1
 }
 .content
 {
+    clear: both;
     background-color: rgb(224, 255, 255);
     padding: 40px;
 }
