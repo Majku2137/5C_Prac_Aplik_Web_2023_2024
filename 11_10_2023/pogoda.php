@@ -22,22 +22,40 @@
         <div class="content">
             <table>
                 <tr>
-                    <td>
+                    <th>
                         DATA
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         TEMPERATURA W NOCY
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         TEMPERATURA W DZIEŃ
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         OPADY [mm/h]
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         CIŚNIENIE [hPa]
-                    </td>
+                    </th>
                 </tr>
+                <?php
+                
+
+                $host = "localhost";
+                $user = "root";
+                $pass = "";
+                $db = "prognoza";
+
+                $polaczenie = mysqli_connect($host, $user, $pass, $db);
+
+                $zapytania = "SELECT * FROM pogoda WHERE miasta_id = 1 ORDER BY data_prognozy ASC;";
+
+                $wynik = mysqli_query($polaczenie, $zapytania);
+
+                while($tab = mysqli_fetch_row($wynik)) {
+                    echo "<tr><td>$tab[2]</td><td>$tab[3]</td><td>$tab[4]</td><td>$tab[5]</td><td>$tab[6]</td></tr>";
+                }
+                ?>
             </table>
         </div>
     </section>
