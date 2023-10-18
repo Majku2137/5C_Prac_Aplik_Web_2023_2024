@@ -29,7 +29,6 @@
                 $zapytania = "SELECT * FROM zadanie2 WHERE id = '$ID' AND nazwa = '$Nazwa';";
                 $wynik = mysqli_query($polaczenie, $zapytania);
 
-                //Testowe dane to ID=1 oraz Nazwa=xpp B))
                 if($wynik->num_rows > 0)
                 {
                     $row = $wynik->fetch_assoc();
