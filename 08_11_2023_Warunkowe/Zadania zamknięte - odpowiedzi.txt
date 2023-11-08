@@ -1,5 +1,5 @@
 Zadanie 1:
-ODP.D
+ODP.C
 
 Zadanie 2:
 ODP.A
@@ -11,4 +11,4 @@ Zadanie 4:
 ODP.C
 
 Zadanie 5:
-ODP.D
+ODP.A
