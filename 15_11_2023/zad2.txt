@@ -1,0 +1,12 @@
+Zalety:
+1. Skalowalność - są zoptymalizowane
+2. Bezpieczeństwo danych - Dobre mechanizmy bezpieczeństwa
+3. Integrowane zapytania - SQL, język zapytań używany do interakcji z bazą
+4. Spójność danych:
+5. Wydajność
+
+Wady:
+1.Koszty
+2.Złożoność
+3.Wymagania dotyczące zasobów
+4.Ryzyko awarii

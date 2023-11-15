@@ -1,0 +1,5 @@
+MYSQL -- https://www.mysql.com/ -- MySQL 8.0 -- GPL, lecz posiada komercyjną
+PostgreSQL -- https://www.postgresql.org/ -- PostgreSQL 14.1 -- licencja otwartoźródłowa
+SQLite -- https://www.sqlite.org/index.html -- SQLite 3.37.0 -- Public domain
+Microsoft SQL Server -- https://www.microsoft.com/pl-pl/sql-server/sql-server-downloads -- SQL Server 2019 -- bezpłatna
+Oracle Database -- https://www.oracle.com/pl/database/ -- Oracle Database 19c -- Posiada
